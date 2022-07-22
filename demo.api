@@ -1,0 +1,6 @@
+syntax = "v1"
+
+service friend {
+	@handler handlerGetFriendProfile
+	get /v1/friend/getFriendProfile
+}
